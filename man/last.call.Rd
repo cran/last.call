@@ -19,6 +19,9 @@ last.call(n = 1)
 
 \details{
 
+  \bold{ \code{last.call} does not work in BATCH mode. }  Since there is 
+  no history saved with \code{\link[utils]{Rscript}}. 
+ 
   \code{last.call} attempts to retrieve up to \code{n} 
   commands from the command history. It parses them and returns
   them as an unevaluated call (n=1) or expression (n>1). 'R_HISTSIZE' and
@@ -43,7 +46,9 @@ last.call(n = 1)
 }
 
 \seealso{
-  \code{\link[utils]{history}}, \code{\link[base]{sys.call}}. 
+  \code{\link[utils]{history}}, 
+  \code{\link[utils]{Rscript}}, 
+  \code{\link[base]{sys.call}}. 
 }
 
 \examples{

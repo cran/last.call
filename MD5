@@ -1,7 +1,10 @@
-1d0973636db969a8da346811b77fe8d2 *DESCRIPTION
+630fd531c7eb99fe8fde636382da88be *DESCRIPTION
 46b11aa21faa2ea81ba47eda491b5b6f *LICENSE
 7ba8176894d9dd6db13424fedaaf97cb *NAMESPACE
-390bbd643f38a4a8c1fac55cb93bd345 *R/last.call.R
-4576af23ce38b120ec0a69babcd7ed03 *R/zzz.R
-3e3df74827834a8851b6e82013ad0546 *man/last.call-package.Rd
-4f0e5e64144057e8064bb162be47ebf5 *man/last.call.Rd
+0687595fbbc9baa08464c7f694ad70a7 *NEWS
+ddb1440ab9f12ed9283c5e0591583c4f *R/last.call.R
+193cd35bffb285e6e2b0ced62cdcd75c *R/zzz.R
+236703665d954083b5406fb43ee69ef7 *TODO
+37732e9af34d78999e4256a5f2c1003d *man/last.call-package.Rd
+6f13ed7cb9942ed210c1f282adb3414f *man/last.call.Rd
+ba0899d7a06d1ce96372cfcda2d0b251 *tests/test2.r

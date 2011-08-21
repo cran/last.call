@@ -2,11 +2,8 @@
 
   packageStartupMessage(
     "last.call-", 
-    utils::installed.packages()[ pkgname , "Version"],
-    " :  Copyright (c)2011 Decision Patterns\n" ,
+    utils::installed.packages()[ pkgname , "Version"] ,
+    " : Copyright (c)2011 Decision Patterns\n" ,
     domain = NULL
   )
-
 }
-
-

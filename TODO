@@ -1,0 +1,8 @@
+
+- Must write a Rscript that saves history.
+  - How do we install this in R.home
+  - ${R_HOME}/bin/BATCH explicitly sets -no-readline. This might be why
+    there is no history in batch mode. Note
+    - I tried simply removing the --no-readline option with no effect.
+  - A better method might be to drill into how savehistory works.
+

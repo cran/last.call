@@ -1,0 +1,12 @@
+Version 0.1.3. (2011-08-21)
+
+ Removed suggest: pragma
+
+
+Version 0.1.2 
+
+  Discovered that there is almost no way to get the history while running in
+  BATCH mode or under Rscript.  See ?history for details. This limits the 
+  utility of this packages.  See the encloded TODO package for details.
+
+

@@ -16,6 +16,11 @@
 last.call <-
 function(n=1) {
 
+ if( ! interactive() ) {
+   warning( "'last.call' does not work in BATCH mode." )      
+   return(NULL)
+ }
+
  f1 <- tempfile()
  try( savehistory(f1), silent=TRUE ) 
  try( rawhist <- readLines(f1), silent=TRUE )
@@ -41,6 +46,6 @@ function(n=1) {
 
 }
 
-last.call(1)
-last.call(1:4) 
+# last.call(1)
+# last.call(1:4) 
 
